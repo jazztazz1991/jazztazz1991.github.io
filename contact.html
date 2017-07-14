@@ -30,24 +30,17 @@
 		</aside>
 
 		<section>
-            <h2> Contact </h2>
+            <h2> E-Mail Me </h2>
             <hr>
 			<article>
-				<form>
-                    Name:
+				<form method="GET" action="mailto:jazz_tazz1991@hotmail.com" enctype="text/plain">
+                    <div>Subject</div>
+                    <input type="text" name="subject" />
                     <br>
-                    <input type="text" name="Full Name">
-                    <br><br>
-                    Email:
+                    <div>Message</div>
+                    <textarea name="body"></textarea>
                     <br>
-                    <input type="text" name="Email">
-                    <br><br>
-                    Message:
-                    <br>
-                    <textarea name="Message" id="message" rows="12" column="30">
-                    </textarea>
-                    <br>
-                    <input type="submit" name="Submit" id="submit">
+                    <input type="submit" name="Submit" id="submit" value="send">
                 </form>
 			</article>
 		</section>
